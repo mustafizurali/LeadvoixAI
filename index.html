@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeadVoixAI | 24/7 AI Voice Agents for Real Estate</title>
+    <meta name="description" content="Stop losing real estate leads. LeadVoixAI deploys human-like voice agents that answer missed calls, qualify leads, and book meetings 24/7.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-microphone-lines"></i></span>
+                <span class="logo-text">LeadVoix<span>AI</span></span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#features">Features</a>
+                <a href="#simulator">Live Demo</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+            <div class="nav-cta">
+                <a href="#simulator" class="btn btn-secondary">Try Free Simulator</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge">🚀 Revolutionizing Real Estate Communication</div>
+                <h1>Never Miss Another Lead. <span class="text-gradient">Our AI Calls Back in 10 Seconds.</span></h1>
+                <p class="hero-subtext">Real estate agents miss 62% of incoming calls. Our human-like AI voice agents answer instantly, qualify buyers, and book meetings directly into your calendar 24/7.</p>
+                <div class="hero-actions">
+                    <a href="#simulator" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Start Free Simulator</a>
+                    <a href="https://calendly.com" target="_blank" class="btn btn-outline"><i class="fa-regular fa-calendar-check"></i> Book Strategy Call</a>
+                </div>
+                <div class="hero-trust">
+                    <div class="trust-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>Loved by agents in Miami, Dubai, and NYC</span>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glow-sphere"></div>
+                <div class="dashboard-mockup">
+                    <div class="mockup-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="mockup-title">LeadVoixAI Dashboard</span>
+                    </div>
+                    <div class="mockup-body">
+                        <div class="stat-grid">
+                            <div class="stat-card">
+                                <span class="stat-label">Calls Handled</span>
+                                <span class="stat-val">1,248</span>
+                                <span class="stat-change positive"><i class="fa-solid fa-arrow-up"></i> +12%</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-label">Leads Qualified</span>
+                                <span class="stat-val">412</span>
+                                <span class="stat-change positive"><i class="fa-solid fa-arrow-up"></i> +18%</span>
+                            </div>
+                        </div>
+                        <div class="log-container">
+                            <div class="log-title">Recent Activity Log</div>
+                            <div class="log-item">
+                                <div class="log-dot green"></div>
+                                <div class="log-details">
+                                    <span class="log-time">Just now</span>
+                                    <p class="log-desc">AI Agent <strong>Sarah</strong> qualified a buyer for <em>102 Ocean Drive, Miami</em>.</p>
+                                </div>
+                            </div>
+                            <div class="log-item">
+                                <div class="log-dot blue"></div>
+                                <div class="log-details">
+                                    <span class="log-time">5 mins ago</span>
+                                    <p class="log-desc">Meeting booked with <strong>James K.</strong> (Budget: $1.2M) via AI follow-up.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Simulator Section -->
+    <section id="simulator" class="simulator-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Test Our AI Agent <span class="text-gradient">Right Now (For Free)</span></h2>
+                <p>No phone numbers needed. Talk directly to our AI real estate assistant using your browser microphone.</p>
+            </div>
+            
+            <div class="simulator-wrapper">
+                <div class="simulator-controls">
+                    <h3>Configure Your AI Agent</h3>
+                    <p class="control-help">Select a persona to test different negotiation and script scenarios.</p>
+                    
+                    <div class="persona-options">
+                        <div class="persona-card active" data-persona="buyer">
+                            <div class="persona-icon"><i class="fa-solid fa-house-chimney-user"></i></div>
+                            <div class="persona-info">
+                                <span class="persona-name">Sarah (Buyer Agent)</span>
+                                <span class="persona-role">Qualifies buyers & books home viewings</span>
+                            </div>
+                        </div>
+                        <div class="persona-card" data-persona="seller">
+                            <div class="persona-icon"><i class="fa-solid fa-tags"></i></div>
+                            <div class="persona-info">
+                                <span class="persona-name">Michael (Seller Agent)</span>
+                                <span class="persona-role">Collects property details & books valuations</span>
+                            </div>
+                        </div>
+                        <div class="persona-card" data-persona="rental">
+                            <div class="persona-icon"><i class="fa-solid fa-key"></i></div>
+                            <div class="persona-info">
+                                <span class="persona-name">Jessica (Leasing Agent)</span>
+                                <span class="persona-role">Screens rental leads & schedules tours</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="instruction-box">
+                        <h4><i class="fa-solid fa-circle-info"></i> How to use:</h4>
+                        <ol>
+                            <li>Click the glowing <strong>"Start Call"</strong> button.</li>
+                            <li>Allow microphone access if requested.</li>
+                            <li>Wait for the agent to greet you, then start speaking!</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="simulator-display">
+                    <div class="phone-case">
+                        <div class="phone-screen">
+                            <div class="agent-avatar-area">
+                                <div class="avatar-ring">
+                                    <div class="avatar-ring-inner"></div>
+                                    <div class="avatar-image">
+                                        <i class="fa-solid fa-headset"></i>
+                                    </div>
+                                </div>
+                                <h4 class="agent-display-name">Sarah</h4>
+                                <span class="agent-status">Ready to call</span>
+                            </div>
+
+                            <div class="conversation-transcript" id="transcript">
+                                <div class="message system-msg">Select a persona and click "Start Call" below to begin a live voice demo.</div>
+                            </div>
+
+                            <div class="phone-controls">
+                                <button class="btn-call start" id="btn-toggle-call">
+                                    <i class="fa-solid fa-phone"></i>
+                                </button>
+                                <span class="call-action-label">Start Call</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Why Real Estate Agencies <span class="text-gradient">Choose LeadVoixAI</span></h2>
+                <p>Designed specifically to solve the leak in the real estate sales pipeline.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feat-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h3>10-Second Response Time</h3>
+                    <p>When a lead submits a form on Zillow or your website, our AI agent calls them back instantly, catching them while interest is highest.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feat-icon"><i class="fa-solid fa-calendar-days"></i></div>
+                    <h3>Direct Calendar Booking</h3>
+                    <p>Qualified buyers and sellers are routed directly to your Google Calendar or Calendly without you lifting a finger.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feat-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3>Smart Lead Qualification</h3>
+                    <p>Our agents ask crucial screening questions: Budget, timeframe, pre-approval status, and location before booking a meeting.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feat-icon"><i class="fa-solid fa-language"></i></div>
+                    <h3>Multi-lingual Support</h3>
+                    <p>Speak to buyers in English, Spanish, Arabic, or French. Automatically detects the client's spoken language.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Demo Section -->
+    <section class="video-section">
+        <div class="container">
+            <div class="video-container-box">
+                <div class="video-text">
+                    <h2>See LeadVoixAI <span class="text-gradient">In Action</span></h2>
+                    <p>Watch a screen recording of our AI Agent handling an inbound call, negotiating details, and booking a client valuation appointment live.</p>
+                    <ul class="video-bullets">
+                        <li><i class="fa-regular fa-circle-check"></i> Realistic human tone & inflections</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Real-time CRM update demonstration</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Handling tough objections smoothly</li>
+                    </ul>
+                </div>
+                <div class="video-player-mock">
+                    <div class="video-placeholder">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <span>Click to watch demo video</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Simple, Transparent <span class="text-gradient">Pricing</span></h2>
+                <p>No hidden setup fees. Pay-as-you-grow with custom call credit options.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-badge">Popular</div>
+                    <h3>Starter Agent</h3>
+                    <p class="pricing-desc">Perfect for individual agents looking to automate inbound missed calls.</p>
+                    <div class="price">$199<span>/month</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> 1 Active AI Agent (Sarah or Michael)</li>
+                        <li><i class="fa-solid fa-check"></i> 500 Outbound/Inbound Minutes Included</li>
+                        <li><i class="fa-solid fa-check"></i> Direct CRM & Calendly Integration</li>
+                        <li><i class="fa-solid fa-check"></i> Basic Lead Qualification</li>
+                        <li><i class="fa-solid fa-check"></i> Standard Email Support</li>
+                    </ul>
+                    <a href="#simulator" class="btn btn-outline btn-block">Try Agent Now</a>
+                </div>
+                
+                <div class="pricing-card premium-card">
+                    <div class="pricing-badge active">Growth Agency</div>
+                    <h3>Scale Plan</h3>
+                    <p class="pricing-desc">For active brokerages needing custom prompts and high call volume handling.</p>
+                    <div class="price">$399<span>/month</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Unlimited Custom Voice Agents</li>
+                        <li><i class="fa-solid fa-check"></i> 1,500 Outbound/Inbound Minutes Included</li>
+                        <li><i class="fa-solid fa-check"></i> Advanced CRM, Zillow, & SMS Integrations</li>
+                        <li><i class="fa-solid fa-check"></i> Custom Scenarios & Tone Configuration</li>
+                        <li><i class="fa-solid fa-check"></i> Dedicated Slack Account Manager</li>
+                    </ul>
+                    <a href="https://calendly.com" target="_blank" class="btn btn-primary btn-block">Book Strategy Call</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>What Real Estate <span class="text-gradient">Leaders Say</span></h2>
+                <p>Trusted by top agents and brokerages across major international markets.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="user-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="user-text">"Before LeadVoixAI, I missed at least 5-10 calls a day when showing homes. Now my AI Agent Sarah qualifies them and books tours while I'm with clients. Game changer!"</p>
+                    <div class="user-info">
+                        <div class="user-details">
+                            <span class="user-name">David Reynolds</span>
+                            <span class="user-title">Luxury Realtor, Miami Beach</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="user-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="user-text">"In Dubai, response speed is everything. If you don't call back in 5 minutes, they rent from someone else. LeadVoixAI calls back in seconds. Our conversion rate rose by 34%."</p>
+                    <div class="user-info">
+                        <div class="user-details">
+                            <span class="user-name">Amara Al-Mansoori</span>
+                            <span class="user-title">Managing Director, Dubai Palms Realty</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Frequently Asked <span class="text-gradient">Questions</span></h2>
+                <p>Have questions about how our real estate AI agents work? Here are some answers.</p>
+            </div>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <div class="faq-question">Does it sound like a real person? <i class="fa-solid fa-plus"></i></div>
+                    <div class="faq-answer">Yes! We use cutting-edge, low-latency text-to-speech engines with realistic breathing sounds, dynamic inflections, and conversational pauses. Most clients never realize they are speaking to an AI agent.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">How does it book meetings on my calendar? <i class="fa-solid fa-plus"></i></div>
+                    <div class="faq-answer">During the call, once the lead matches your qualification criteria, the AI agent checks your connected Google/Outlook Calendar via Calendly/Cal.com and books the meeting instantly.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Can I customize the agent's scripts and prompts? <i class="fa-solid fa-plus"></i></div>
+                    <div class="faq-answer">Absolutely. We customize each agent's system prompt to match your company details, listings, specific qualifying questions, and tone of voice.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content text-center">
+            <div class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-microphone-lines"></i></span>
+                <span class="logo-text">LeadVoix<span>AI</span></span>
+            </div>
+            <p class="footer-tagline">24/7 AI-powered voice solutions for real estate growth.</p>
+            <div class="footer-links">
+                <a href="#features">Features</a>
+                <a href="#simulator">Live Demo</a>
+                <a href="#pricing">Pricing</a>
+                <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            </div>
+            <p class="copyright">&copy; 2026 LeadVoixAI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

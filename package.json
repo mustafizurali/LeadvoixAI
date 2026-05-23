@@ -1,0 +1,16 @@
+{
+  "name": "leadvoixai-tools",
+  "version": "1.0.0",
+  "description": "Marketing tools and scrapers for LeadVoixAI agency setup.",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "start": "echo \"Open index.html in your browser to run the LeadVoixAI simulator.\""
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "puppeteer": "^22.6.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
