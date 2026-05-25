@@ -44,15 +44,15 @@
                     <a href="#simulator" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Start Free Simulator</a>
                     <a href="https://calendly.com/aliskmustafizur/30min" target="_blank" class="btn btn-outline"><i class="fa-regular fa-calendar-check"></i> Book Strategy Call</a>
                 </div>
-                <div class="hero-trust">
-                    <div class="trust-stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <span>Loved by agents in Miami, Dubai, and NYC</span>
+                <!-- Email Lead Magnet Capture Form -->
+                <form class="lead-magnet-form" id="lead-form">
+                    <input type="email" placeholder="Enter your email to get a Free AI Calling Audit" required class="form-input">
+                    <button type="submit" class="btn btn-submit">Get Free Audit</button>
+                </form>
+                <div class="hero-trust-badges">
+                    <span><i class="fa-solid fa-shield-halved"></i> No Setup Fees</span>
+                    <span><i class="fa-solid fa-ban-smoking"></i> No Contracts</span>
+                    <span><i class="fa-solid fa-calendar-minus"></i> Cancel Anytime</span>
                 </div>
             </div>
             <div class="hero-visual">
@@ -216,18 +216,18 @@
             <div class="video-container-box">
                 <div class="video-text">
                     <h2>See LeadVoixAI <span class="text-gradient">In Action</span></h2>
-                    <p>Watch a screen recording of our AI Agent handling an inbound call, negotiating details, and booking a client valuation appointment live.</p>
+                    <p>Watch how our AI Agent Sarah handles an inbound call, answers property questions, and books a client valuation appointment live.</p>
                     <ul class="video-bullets">
                         <li><i class="fa-regular fa-circle-check"></i> Realistic human tone & inflections</li>
-                        <li><i class="fa-regular fa-circle-check"></i> Real-time CRM update demonstration</li>
-                        <li><i class="fa-regular fa-circle-check"></i> Handling tough objections smoothly</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Smart lead data logging demonstration</li>
+                        <li><i class="fa-regular fa-circle-check"></i> 10-second callback speed verification</li>
                     </ul>
                 </div>
                 <div class="video-player-mock">
-                    <div class="video-placeholder">
-                        <i class="fa-solid fa-circle-play"></i>
-                        <span>Click to watch demo video</span>
-                    </div>
+                    <video id="demo-video" controls style="width: 100%; height: 100%; border-radius: 12px; object-fit: cover; background: #000;">
+                        <source src="sarah-demo.mp4" type="video/mp4">
+                        Your browser does not support the video tag. Please place 'sarah-demo.mp4' in your folder.
+                    </video>
                 </div>
             </div>
         </div>
@@ -238,7 +238,7 @@
         <div class="container">
             <div class="section-header text-center">
                 <h2>Simple, Transparent <span class="text-gradient">Pricing</span></h2>
-                <p>No hidden setup fees. Pay-as-you-grow with custom call credit options.</p>
+                <p>No setup fees. Simple billing. Cancel anytime.</p>
             </div>
             <div class="pricing-grid">
                 <div class="pricing-card">
@@ -248,10 +248,10 @@
                     <div class="price">$199<span>/month</span></div>
                     <ul class="pricing-features">
                         <li><i class="fa-solid fa-check"></i> 1 Active AI Agent (Sarah or Michael)</li>
-                        <li><i class="fa-solid fa-check"></i> 500 Outbound/Inbound Minutes Included</li>
+                        <li><i class="fa-solid fa-check"></i> Up to 200 calls monthly</li>
                         <li><i class="fa-solid fa-check"></i> Direct CRM & Calendly Integration</li>
                         <li><i class="fa-solid fa-check"></i> Basic Lead Qualification</li>
-                        <li><i class="fa-solid fa-check"></i> Standard Email Support</li>
+                        <li><i class="fa-solid fa-check"></i> Cancel anytime</li>
                     </ul>
                     <a href="#simulator" class="btn btn-outline btn-block">Try Agent Now</a>
                 </div>
@@ -263,10 +263,10 @@
                     <div class="price">$399<span>/month</span></div>
                     <ul class="pricing-features">
                         <li><i class="fa-solid fa-check"></i> Unlimited Custom Voice Agents</li>
-                        <li><i class="fa-solid fa-check"></i> 1,500 Outbound/Inbound Minutes Included</li>
+                        <li><i class="fa-solid fa-check"></i> Up to 600 calls monthly</li>
                         <li><i class="fa-solid fa-check"></i> Advanced CRM, Zillow, & SMS Integrations</li>
                         <li><i class="fa-solid fa-check"></i> Custom Scenarios & Tone Configuration</li>
-                        <li><i class="fa-solid fa-check"></i> Dedicated Slack Account Manager</li>
+                        <li><i class="fa-solid fa-check"></i> Cancel anytime</li>
                     </ul>
                     <a href="https://calendly.com/aliskmustafizur/30min" target="_blank" class="btn btn-primary btn-block">Book Strategy Call</a>
                 </div>
@@ -313,6 +313,23 @@
                             <span class="user-title">Managing Director, Dubai Palms Realty</span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section class="founder-section">
+        <div class="container">
+            <div class="founder-card">
+                <div class="founder-image-container">
+                    <div class="founder-avatar"><img src="founder.jpg" alt="Alisk Mustafizur" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;"></div>
+                </div>
+                <div class="founder-info">
+                    <div class="badge">Founder & CEO</div>
+                    <h2>Meet the Founder</h2>
+                    <p class="founder-bio">"Hi, I'm Sk Mustafizur Ali, the founder of LeadVoixAI. I started this agency because I saw how many real estate agents lose deals simply because they are busy showing properties when a new lead calls. We built LeadVoixAI to help you capture every single lead instantly, build trust, and scale your business without working 24/7. Let's work together to grow your agency!"</p>
+                    <div class="founder-signature">Sk Mustafizur Ali</div>
                 </div>
             </div>
         </div>
